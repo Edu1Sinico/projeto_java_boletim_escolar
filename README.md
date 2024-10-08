@@ -8,6 +8,7 @@ Projeto avaliativo do SENAI de Java com interface gráfica sobre um Sistema de B
 - [Objetivos do Projeto](#objetivos-do-projeto);
 - [Funcionalidades](#funcionalidades);
 - [Manual do Usuário](#manual-do-usuário);
+- [Banco de Dados](#banco-de-dados);
 - [Estrutura de Programação](#estrutura-de-programação);
 
 >  ## _Introdução_
@@ -45,17 +46,58 @@ O sistema atende à necessidade de automatização no controle de notas, agiliza
 
 >  ## _Funcionalidades_
 
+**1. Professor:**
+- Aplicar e editar notas para os alunos de acordo com a matéria que leciona;
+- Realizar o cálculo da média automaticamente a partir de três notas;
+- Métodos CRUD (Criar, Ler, Atualizar, Deletar) das notas.
+
+**2. Aluno:**
+- Visualizar suas informações pessoais e notas por matéria;
+- Filtrar matérias específicas.
+
+**3. Admin:**
+- Gerenciar (CRUD) cadastros de professores e alunos no sistema.
+
+<hr>
+
+### _Diagramas:_
+
+**_Fluxograma de Uso:_**
+
+<br>
+
+**_Fluxograma de Fluxo:_**
+
 <br>
 
 >  ## _Manual do Usuário_
 
 <br>
 
+>  ## _Banco de Dados_
+
+### _Diagramas:_
+
+**_Fluxograma de Classe:_**
+
+<br>
+
 >  ## _Estrutura de Programação_
+O sistema foi desenvolvido utilizando as seguintes tecnologias:
+
+**Java**
+<br>
+Linguagem de programação principal utilizada para implementar toda a lógica de negócios do sistema. A sua vantagem é ser uma linguagem ersátil, permite o desenvolvimento de aplicações robustas e escaláveis.
+
+<hr>
+
+**PostgreSQL**
+<br>
+Banco de dados relacional utilizado para armazenar as informações dos professores, alunos, matérias e notas. A escolha por PostgreSQL se deu por sua robustez e capacidade de lidar com grandes volumes de dados. Suas principais vantagens são: Programa gratuito, open-source, e possui grande suporte a transações ACID e integração com Java.
 
 <hr>
 
 **Github**
 <br>
-Além disso, utilizamos o Git como sistema de controle de versão, permitindo o armazenamento seguro de todos os arquivos do projeto e da documentação. O Git não só facilita a colaboração entre os membros da equipe, como também assegura que todas as mudanças no código sejam registradas e possam ser revertidas, se necessário, garantindo assim um desenvolvimento mais organizado e controlado.
+Utilizado para versionamento de código, facilitando o trabalho colaborativo e o controle de versões ao longo do desenvolvimento do projeto. Ele oferece controle total do código, permitindo o histórico de mudanças e trabalho colaborativo.
 
