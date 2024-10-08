@@ -55,8 +55,3 @@ Matéria:
 → Admin: O admin irá cadastrar tanto professores quanto alunos no sistema.
 
 	∘ Será possível aplicar os métodos CRUD para ambas as tabelas.
-
-
-
-
-

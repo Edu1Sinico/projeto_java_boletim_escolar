@@ -340,6 +340,7 @@ public class JanelaAvaliacao extends JFrame {
                 nota1Field.setText("");
                 nota2Field.setText("");
                 nota3Field.setText("");
+                aplicar.setEnabled(true);
                 table.clearSelection();
             }
         });
