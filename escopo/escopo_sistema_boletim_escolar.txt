@@ -48,7 +48,7 @@ Matéria:
 	∘ Será possível também os métodos CRUD das notas (Aplicar, Editar, Excluir e Limpar);
 	∘ O professor só poderá editar as notas dos alunos com base na sua matéria de especialidade.
 
-→ Aluno: O aluno poderá vizualiar suas informações pessoas e acadêmicas.
+→ Aluno: O aluno poderá visualizar suas informações pessoas e acadêmicas.
 
 	∘ O aluno poderá filtrar por matéria.
 
