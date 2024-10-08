@@ -58,6 +58,17 @@ O sistema atende à necessidade de automatização no controle de notas, agiliza
 **3. Admin:**
 - Gerenciar (CRUD) cadastros de professores e alunos no sistema.
 
+>  ## _Manual do Usuário_
+O sistema é dividido em três níveis de acesso:<br><br>
+**1. Admin:** <br>
+ - O administrador deve acessar o sistema com um login válido, onde ele poderá gerenciar as informações de professores e alunos. A interface de cadastro permite a inserção de novos professores e alunos.
+<br><br>
+**2. Professor:** <br>
+- Ao acessar o sistema, o professor pode aplicar notas, consultar o desempenho dos alunos e atualizar notas conforme necessário. O professor só pode alterar notas de alunos em suas matérias de especialização.
+<br><br>
+**3. Aluno:** <br>
+- O aluno, após login, pode visualizar suas notas, filtrar as matérias e consultar sua média final.
+<br>
 <hr>
 
 ### _Diagramas:_
@@ -67,10 +78,6 @@ O sistema atende à necessidade de automatização no controle de notas, agiliza
 <br>
 
 **_Fluxograma de Fluxo:_**
-
-<br>
-
->  ## _Manual do Usuário_
 
 <br>
 
