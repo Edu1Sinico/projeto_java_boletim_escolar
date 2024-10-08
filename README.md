@@ -142,7 +142,9 @@ O sistema é dividido em três níveis de acesso:<br><br>
 <br>
 
 **_Fluxograma de Fluxo:_**
-
+<div align="center">
+    <img src="escopo/diagrama_de_fluxo.png" alt="Diagrama de Fluxo" width="800vh">
+</div>
 <br>
 
 >  ## _Banco de Dados_
