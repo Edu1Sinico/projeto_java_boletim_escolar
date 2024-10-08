@@ -58,6 +58,8 @@ O sistema atende à necessidade de automatização no controle de notas, agiliza
 **3. Admin:**
 - Gerenciar (CRUD) cadastros de professores e alunos no sistema.
 
+<br>
+
 >  ## _Manual do Usuário_
 O sistema é dividido em três níveis de acesso:<br><br>
 **1. Admin:** <br>
