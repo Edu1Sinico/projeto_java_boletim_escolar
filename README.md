@@ -136,7 +136,9 @@ O sistema é dividido em três níveis de acesso:<br><br>
 ### _Diagramas:_
 
 **_Fluxograma de Uso:_**
-
+<div align="center">
+    <img src="escopo/diagrama_de_uso.png" alt="Diagrama de Uso" width="800vh">
+</div>
 <br>
 
 **_Fluxograma de Fluxo:_**
@@ -144,11 +146,53 @@ O sistema é dividido em três níveis de acesso:<br><br>
 <br>
 
 >  ## _Banco de Dados_
+O sistema de boletim escolar utiliza o banco de dados PostgreSQL para armazenar todas as informações referentes a professores, alunos, matérias e notas. A modelagem do banco foi feita para garantir a integridade dos dados e a eficiência nas consultas e atualizações.
+
+### Estrutura das Tabelas:
+**1.Professor:**
+- cpf (String, PK): Chave primária única para identificar cada professor.
+- nome (String): Nome completo do professor.
+- idade (String): Idade do professor.
+- email (String): E-mail de contato.
+- senha (String): Senha de acesso ao sistema.
+- especializacao (String): Área de especialização do professor.
+
+**2.Aluno:**
+- ra (String, PK): Chave primária única para identificar cada aluno.
+- cpf (String): CPF do aluno.
+- nome (String): Nome completo do aluno.
+- idade (String): Idade do aluno.
+- email (String): E-mail de contato.
+- senha (String): Senha de acesso ao sistema.
+- turma (String): Turma à qual o aluno pertence.
+
+**3.Matéria:**
+- id (Int, PK): Identificador único da matéria.
+- nomeMateria (String): Nome da matéria.
+- nota1 (Double): Primeira nota do aluno na matéria.
+- nota2 (Double): Segunda nota do aluno na matéria.
+- nota3 (Double): Terceira nota do aluno na matéria.
+- media (Double): Média calculada a partir das três notas.
+- cpfProfessor (String, FK): Chave estrangeira referenciando o CPF do professor responsável pela matéria.
+- raAluno (String, FK): Chave estrangeira referenciando o RA do aluno.
+
+
+### Relacionamentos:
+- Professor -> Matéria: A relação entre professor e matéria é feita através da chave estrangeira cpfProfessor na tabela Matéria, que garante que apenas professores cadastrados possam ser associados a uma matéria.
+- Aluno -> Matéria: A relação entre aluno e matéria é feita através da chave estrangeira raAluno na tabela Matéria, garantindo que as notas sejam associadas a alunos específicos.
+
+### Integração com o Sistema:
+O banco de dados foi projetado para garantir:
+- Integridade referencial: Todas as chaves estrangeiras garantem que as informações de professores e alunos sejam consistentes e estejam devidamente relacionadas às matérias.
+- Eficiência: Consultas e atualizações são otimizadas para permitir a rápida visualização das notas e médias dos alunos.
+- Segurança: Informações sensíveis, como senhas, são armazenadas de maneira segura, garantindo a privacidade dos usuários.
 
 ### _Diagramas:_
 
 **_Fluxograma de Classe:_**
-
+<div align="center">
+    <img src="escopo/diagrama_de_classe.png" alt="Diagrama de Classe" width="800vh">
+</div>
 <br>
 
 >  ## _Estrutura de Programação_
