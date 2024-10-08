@@ -67,15 +67,69 @@ O sistema é dividido em três níveis de acesso:<br><br>
  - O administrador deve acessar o sistema com um login válido, onde ele poderá gerenciar as informações de professores e alunos. A interface de cadastro permite a inserção de novos professores e alunos.
 <br><br>
 
+### Login: 
+<div align="center">
+    <img src="escopo/manual_usuario/admin/login_adm.png" alt="Login do Admin" width="400vh">
+</div>
+
+<br>
+
+### Cadastro de Professores:
+<div align="center">
+    <img src="escopo/manual_usuario/admin/cad_professor.png" alt="Cadastro de Professor" width="600vh">
+</div>
+
+<br>
+
+### Cadastro de Alunos:
+<div align="center">
+    <img src="escopo/manual_usuario/admin/cad_aluno.png" alt="Cadastro de Aluno" width="600vh">
+</div>
+
+<hr>
+
 **2. Professor:**
 <br>
 - Ao acessar o sistema, o professor pode aplicar notas, consultar o desempenho dos alunos e atualizar notas conforme necessário. O professor só pode alterar notas de alunos em suas matérias de especialização.
 <br><br>
 
+### Login: 
+<div align="center">
+    <img src="escopo/manual_usuario/professor/login_professor.png" alt="Login do Professor" width="400vh">
+</div>
+
+<br>
+
+### Aplicar Nota para o Aluno:
+<div align="center">
+    <img src="escopo/manual_usuario/professor/aplicar_nota.png" alt="Aplicar a Nota" width="600vh">
+</div>
+
+<br>
+
+### Seleção de Matéria Não-Especializada:
+<div align="center">
+    <img src="escopo/manual_usuario/professor/selecionar_materia_errada.png" alt="Seleção de Matéria" width="600vh">
+</div>
+
+<hr>
+
 **3. Aluno:** 
 <br>
 - O aluno, após login, pode visualizar suas notas, filtrar as matérias e consultar sua média final.
+<br><br>
+
+### Login: 
+<div align="center">
+    <img src="escopo/manual_usuario/aluno/login_aluno.png" alt="Login do Aluno" width="400vh">
+</div>
+
 <br>
+
+### Visualizar Informações do Aluno:
+<div align="center">
+    <img src="escopo/manual_usuario/aluno/visualizar_boletim.png" alt="Visualizar Informações" width="600vh">
+</div>
 
 <hr>
 
